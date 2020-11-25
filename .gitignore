@@ -1,5 +1,5 @@
 # Environments 
-.env/
+env/
 
 # Django #
 *.log
@@ -10,9 +10,12 @@ db.sqlite3
 media
 
 # Visual Studio Code # 
-.vscode/* 
+.vscode/
 !.vscode/settings.json 
 !.vscode/tasks.json 
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+# Sensitive information
+sensitive.py
